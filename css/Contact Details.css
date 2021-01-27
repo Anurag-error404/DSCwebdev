@@ -1,0 +1,114 @@
+.navbar {
+    background-color: black;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.navbar li {
+    float: right;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+#myName {
+    padding: 3px 3px;
+    color: white;
+    float: left;
+}
+
+.navbar li a:hover {
+    color: grey;
+}
+
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+.container{
+    text-align: center;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.social{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+}
+.ig {
+    border: 2px solid rgb(98, 173, 12);
+    background-color: rgb(98, 173, 12);
+    color:white;
+    border-radius: 20px;
+    padding: 10px ;
+    width: 50%;
+    margin:auto;
+}
+
+.git {
+    
+    border: 2px solid rgb(241, 197, 75);
+    background-color: rgb(241, 197, 75);
+    color:white;
+    border-radius: 20px;
+    padding: 10px ;
+    width: 50%;
+    margin:auto;
+    margin-top: 15px;
+}
+
+.lik {
+    
+    border: 2px solid rgb(238, 112, 200);
+    background-color: rgb(238, 112, 200);
+    color:white;
+    border-radius: 20px;
+    padding: 10px ;
+    width: 50%;
+    margin:auto;
+    margin-top: 15px;
+
+}
+
+.fb {
+    border: 2px solid rgb(31, 158, 231);
+    background-color: rgb(31, 158, 231);
+    color:white;
+    border-radius: 20px;
+    padding: 10px ;
+    width: 50%;
+    margin:auto;
+    margin-top: 15px;
+
+}
+
+.twit {
+    
+    border: 2px solid rgb(228, 95, 95);
+    background-color: rgb(228, 95, 95);
+    color:white;
+    border-radius: 20px;
+    padding: 10px ;
+    width: 50%;
+    margin:auto;
+    margin-top: 15px;
+
+}
+.container a:hover{
+    text-decoration: underline;
+    color:black;
+}

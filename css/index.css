@@ -1,0 +1,63 @@
+.navbar {
+    background-color: black;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.navbar li {
+    float: right;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+#myName {
+    padding: 3px 3px;
+    color: white;
+    float: left;
+}
+
+.navbar li a:hover {
+    color: grey;
+}
+
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+img {
+    display: block;
+    align-items: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+#bodyText {
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid blueviolet;
+    margin: 20px auto;
+    padding: 7px;
+    width: 60%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+
+}
+
+#bodyText h2 {
+    text-align: center;
+}

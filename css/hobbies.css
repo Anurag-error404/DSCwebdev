@@ -1,0 +1,71 @@
+.navbar {
+    background-color: black;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.navbar li {
+    float: right;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+#myName {
+    padding: 3px 3px;
+    color: white;
+    float: left;
+}
+
+.navbar li a:hover {
+    color: grey;
+}
+
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+.hobbies{
+    border: 5px double blueviolet;
+    border-radius: 25px;
+    margin-left: 5px;
+    width:48%;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    display: inline-block;
+    color:white;
+    background-color: blueviolet;
+}
+.skills{
+    border: 5px double rgb(9, 197, 134);
+    border-radius: 25px;
+    margin-right: 5px;
+    width:49%;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    font-size: 25px;
+    color:white;
+    background-color: rgb(9, 197, 134);
+
+}
+ul{
+    list-style-type: disc;
+}
+.heading{
+    display: inline-block;
+    text-align: center;
+    margin:auto;
+    width: 80%;
+}
